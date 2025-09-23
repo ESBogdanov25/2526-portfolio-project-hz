@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emil Bogdanov">
+    <meta name="robots" content="index, follow">
+
+    <title>Blog</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <a id="top"></a>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">Emil Bogdanov</div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                </ul>
+                <a href="mailto:bogd0003@hz.nl?subject=Portfolio Contact" class="hire-btn">Contact Me</a>
+            </div>
+        </nav>
+    </header>
+    
+     <div class="floating-elements">
+        <div class="floating-circle"></div>
+        <div class="floating-circle"></div>
+        <div class="floating-circle"></div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <h1>My Journey</h1>
+            <p>A chronological journal documenting my program experiences, career orientation, and growth in the ICT field</p>
+        </header>
+
+        <main class="blog-feed">
+            <article class="blog-post" onclick="openModal('modal5')">
+                <div class="post-header">
+                    <span class="post-date">September 9, 2025</span>
+                    <span class="post-category">Industry Insights</span>
+                </div>
+                <h2 class="post-title">The Future of ICT: Emerging Trends and Opportunities</h2>
+                <p class="post-excerpt">
+                    The ICT landscape is rapidly evolving with groundbreaking technologies reshaping how we work, communicate, and innovate. From artificial intelligence revolutionizing business processes to cloud computing enabling global collaboration, the field offers unprecedented opportunities for growth and impact...
+                </p>
+                <div class="tags">
+                    <span class="tag">AI/ML</span>
+                    <span class="tag">Cloud Computing</span>
+                    <span class="tag">Career Prospects</span>
+                    <span class="tag">Industry Trends</span>
+                </div>
+                <a href="#" class="read-more">Read full article</a>
+            </article>
+
+            <article class="blog-post" onclick="openModal('modal4')">
+                <div class="post-header">
+                    <span class="post-date">September 8, 2025</span>
+                    <span class="post-category">Reflection</span>
+                </div>
+                <h2 class="post-title">First Feedback: Learning from SKC Assignment Insights</h2>
+                <p class="post-excerpt">
+                    Receiving feedback on my SKC assignment was both enlightening and motivating. The constructive comments highlighted areas where I excel and identified opportunities for improvement. This reflection explores how this feedback has shaped my learning approach and career planning...
+                </p>
+                <div class="tags">
+                    <span class="tag">Feedback</span>
+                    <span class="tag">Self-improvement</span>
+                    <span class="tag">Learning Process</span>
+                </div>
+                <a href="#" class="read-more">Read full article</a>
+            </article>
+
+            <article class="blog-post" onclick="openModal('modal3')">
+                <div class="post-header">
+                    <span class="post-date">September 7, 2025</span>
+                    <span class="post-category">Experience</span>
+                </div>
+                <h2 class="post-title">My Programming Journey: From Beginner to Passionate Developer</h2>
+                <p class="post-excerpt">
+                    My programming experience began with curiosity and has evolved into a deep passion for creating solutions through code. From my first "Hello World" to complex projects, this journey has been filled with challenges, breakthroughs, and continuous learning...
+                </p>
+                <div class="tags">
+                    <span class="tag">Programming</span>
+                    <span class="tag">Skills Development</span>
+                    <span class="tag">Personal Growth</span>
+                    <span class="tag">Technical Skills</span>
+                </div>
+                <a href="#" class="read-more">Read full article</a>
+            </article>
+
+            <article class="blog-post" onclick="openModal('modal2')">
+                <div class="post-header">
+                    <span class="post-date">September 6, 2025</span>
+                    <span class="post-category">Self-Analysis</span>
+                </div>
+                <h2 class="post-title">Personal SWOT Analysis: Understanding My Strengths and Growth Areas</h2>
+                <p class="post-excerpt">
+                    Conducting a thorough SWOT analysis has provided valuable insights into my personal and professional profile. By examining my strengths, weaknesses, opportunities, and threats, I've gained clarity on how to leverage my capabilities and address areas for improvement...
+                </p>
+                <div class="tags">
+                    <span class="tag">SWOT Analysis</span>
+                    <span class="tag">Self-awareness</span>
+                    <span class="tag">Strategic Planning</span>
+                    <span class="tag">Personal Development</span>
+                </div>
+                <a href="#" class="read-more">Read full article</a>
+            </article>
+
+            <article class="blog-post" onclick="openModal('modal1')">
+                <div class="post-header">
+                    <span class="post-date">September 4, 2025</span>
+                    <span class="post-category">Study Choice</span>
+                </div>
+                <h2 class="post-title">Choosing My Path: Study Choice Activities and Future Vision</h2>
+                <p class="post-excerpt">
+                    The journey of selecting the right study program has been both challenging and enlightening. Through various study choice activities, self-reflection, and exploring career possibilities, I've discovered my passion for ICT and mapped out my educational path...
+                </p>
+                <div class="tags">
+                    <span class="tag">Study Choice</span>
+                    <span class="tag">Career Planning</span>
+                    <span class="tag">Future Goals</span>
+                    <span class="tag">Decision Making</span>
+                </div>
+                <a href="#" class="read-more">Read full article</a>
+            </article>
+        </main>
+    </div>
+
+    <!-- Modals for full articles -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Choosing My Path: Study Choice Activities and Future Vision</h2>
+            <p><strong>Study Choice Activities:</strong></p>
+            <p>My journey in selecting the right study program began with comprehensive research and self-assessment. I participated in various study choice activities including university open days, information sessions, and career counseling meetings. These activities helped me understand different program structures, career prospects, and the reality of student life in various fields.</p>
+            
+            <p>I also completed aptitude tests and personality assessments that revealed my natural inclination towards logical thinking, problem-solving, and technology. Speaking with current students and alumni provided valuable insights into the day-to-day experiences and long-term outcomes of different study paths.</p>
+            
+            <p><strong>Motivating My Study Choice:</strong></p>
+            <p>My choice to pursue ICT studies is driven by several key factors. First, my fascination with how technology shapes our world and solves complex problems. The rapid pace of innovation in the tech industry excites me, and I want to be part of creating solutions that impact people's lives positively.</p>
+            
+            <p>Second, the versatility of ICT skills appeals to me. Whether it's software development, cybersecurity, data analysis, or system architecture, the field offers diverse career paths that align with different interests and strengths. This flexibility ensures that I can continue growing and exploring throughout my career.</p>
+            
+            <p><strong>After Completing the Study:</strong></p>
+            <p>Upon completion of my ICT studies, I envision myself working as a software developer or systems analyst, contributing to innovative projects that leverage cutting-edge technologies. My goal is to work in an environment that challenges me to continuously learn and adapt to emerging technologies.</p>
+            
+            <p>Long-term, I see myself potentially leading development teams, mentoring junior developers, or even starting my own tech company. The foundation I'm building through my studies will enable me to pursue specializations in areas like artificial intelligence, cloud computing, or cybersecurity based on how the industry evolves and where my interests lead me.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Personal SWOT Analysis: Understanding My Strengths and Growth Areas</h2>
+            <p><strong>Strengths:</strong></p>
+            <p>My analytical thinking abilities stand out as one of my core strengths. I excel at breaking down complex problems into manageable components and finding logical solutions. This skill has proven invaluable in programming and technical troubleshooting.</p>
+            
+            <p>I'm also highly adaptable and eager to learn new technologies. The fast-paced nature of the ICT field doesn't intimidate me; instead, it motivates me to stay current with industry trends and continuously expand my skill set.</p>
+            
+            <p>My communication skills enable me to explain technical concepts to both technical and non-technical audiences, which is crucial for collaboration and client interaction in ICT roles.</p>
+            
+            <p><strong>Weaknesses:</strong></p>
+            <p>One area I'm working to improve is my tendency to perfectionism, which sometimes slows down my initial productivity as I focus too much on getting every detail right from the start. I'm learning to embrace iterative development and the concept of "good enough" for initial implementations.</p>
+            
+            <p>I also recognize that my experience with large-scale project management is limited, and I need to develop stronger skills in coordinating complex, multi-phase projects with multiple stakeholders.</p>
+            
+            <p><strong>Opportunities:</strong></p>
+            <p>The growing demand for ICT professionals presents excellent career opportunities. Emerging fields like AI, IoT, and cloud computing offer chances to specialize in cutting-edge technologies.</p>
+            
+            <p>The trend toward digital transformation across all industries means ICT skills are becoming more valuable and applicable in diverse sectors, from healthcare to finance to entertainment.</p>
+            
+            <p><strong>Threats:</strong></p>
+            <p>The rapid pace of technological change means that skills can become outdated quickly if not continuously updated. Staying relevant requires ongoing learning and adaptation.</p>
+            
+            <p>Increasing automation in some ICT areas might eliminate certain traditional roles, though it also creates new opportunities for those who can adapt and upskill accordingly.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>My Programming Journey: From Beginner to Passionate Developer</h2>
+            <p>My programming experience began during high school with a basic introduction to Python. What started as a mandatory course requirement quickly became a passion as I discovered the power of creating solutions through code.</p>
+            
+            <p><strong>Early Learning Phase:</strong></p>
+            <p>My first programs were simple console applications - calculators, text-based games, and basic data processors. Each small success motivated me to tackle more complex challenges. I spent countless hours experimenting with different approaches and learning from my mistakes.</p>
+            
+            <p>The moment when I created my first functional web application using HTML, CSS, and JavaScript was transformative. Seeing my code come to life in a web browser and realizing that others could interact with what I had built sparked a deeper interest in web development.</p>
+            
+            <p><strong>Skill Development:</strong></p>
+            <p>Over time, I expanded my programming toolkit to include multiple languages and frameworks. I gained experience with Java for object-oriented programming concepts, explored database management with SQL, and delved into modern web frameworks like React and Node.js.</p>
+            
+            <p>Personal projects became my primary learning vehicle. I built a personal finance tracker, contributed to open-source projects, and created small applications to solve problems I encountered in daily life. These projects taught me not just coding skills, but also version control with Git, debugging techniques, and the importance of clean, maintainable code.</p>
+            
+            <p><strong>Current Proficiency:</strong></p>
+            <p>Today, I'm comfortable working with full-stack development, understanding both frontend user experience and backend system architecture. I've developed skills in responsive design, API development, and database optimization.</p>
+            
+            <p>My programming approach has evolved from simply making things work to writing efficient, scalable, and maintainable code. I've learned to appreciate good software architecture, testing practices, and documentation.</p>
+            
+            <p><strong>Continuing Growth:</strong></p>
+            <p>I continue to challenge myself with new technologies and methodologies. Currently, I'm exploring cloud computing platforms, containerization with Docker, and machine learning algorithms. Each new concept I learn adds another tool to my problem-solving arsenal and opens up new possibilities for future projects.</p>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h2>First Feedback: Learning from SKC Assignment Insights</h2>
+            <p>Receiving feedback on my SKC (Study and Career Counseling) assignment was a pivotal moment in my academic journey. The comprehensive evaluation provided valuable insights into my strengths, areas for improvement, and future development opportunities.</p>
+            
+            <p><strong>Feedback Highlights:</strong></p>
+            <p>The feedback praised my analytical approach to career planning and my thorough research into the ICT field. My assessors noted that my self-reflection demonstrated strong self-awareness and realistic goal-setting abilities.</p>
+            
+            <p>They particularly appreciated my integration of personal interests with market demands, showing that I understand both what I enjoy doing and what the industry needs. This balance between passion and practicality was identified as a key strength in my career planning approach.</p>
+            
+            <p><strong>Areas for Improvement:</strong></p>
+            <p>The feedback also highlighted areas where I could strengthen my presentation. I was encouraged to provide more specific examples when discussing my technical skills and to better quantify my achievements and learning outcomes.</p>
+            
+            <p>Additionally, the assessors suggested that I could benefit from more detailed short-term action plans, breaking down my long-term goals into more concrete, measurable steps with specific timelines.</p>
+            
+            <p><strong>My Reflection on the Feedback:</strong></p>
+            <p>Initially, I felt a mix of pride and motivation upon reading the positive aspects of the feedback. It was validating to know that my thoughtful approach to career planning was recognized and appreciated.</p>
+            
+            <p>The constructive criticism, while initially challenging to receive, proved incredibly valuable. It made me realize that I sometimes think in abstract terms when concrete examples would be more powerful and convincing.</p>
+            
+            <p><strong>Actions Taken:</strong></p>
+            <p>Based on this feedback, I've started maintaining a more detailed portfolio of my projects and achievements, including specific technologies used, problems solved, and lessons learned. This practice helps me articulate my experiences more effectively in future applications and interviews.</p>
+            
+            <p>I've also developed a more structured approach to goal-setting, using SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) to create actionable plans for my continued development.</p>
+            
+            <p>This feedback experience taught me the value of external perspectives and the importance of being open to constructive criticism as a tool for growth.</p>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <h2>The Future of ICT: Emerging Trends and Opportunities</h2>
+            <p>The Information and Communication Technology field is experiencing unprecedented growth and transformation. As someone entering this dynamic industry, understanding emerging trends and future opportunities is crucial for career planning and skill development.</p>
+            
+            <p><strong>Artificial Intelligence and Machine Learning:</strong></p>
+            <p>AI and ML are revolutionizing how businesses operate, from automated customer service to predictive analytics and decision-making systems. The demand for professionals who can develop, implement, and maintain AI solutions is growing rapidly across all sectors.</p>
+            
+            <p>This trend presents opportunities for specialization in areas like natural language processing, computer vision, and neural network architecture. Understanding these technologies will be essential for future ICT professionals.</p>
+            
+            <p><strong>Cloud Computing and Edge Computing:</strong></p>
+            <p>The shift toward cloud-first strategies continues to accelerate, with organizations migrating their infrastructure and applications to cloud platforms. Simultaneously, edge computing is emerging to process data closer to its source, reducing latency and improving efficiency.</p>
+            
+            <p>Career opportunities in this space include cloud architects, DevOps engineers, and edge computing specialists. Understanding major cloud platforms like AWS, Azure, and Google Cloud Platform is becoming increasingly valuable.</p>
+            
+            <p><strong>Cybersecurity:</strong></p>
+            <p>As digital transformation increases, so do security threats. Cybersecurity has evolved from a niche specialty to a critical component of every ICT role. The global shortage of cybersecurity professionals creates excellent career opportunities.</p>
+            
+            <p>Emerging areas include zero-trust security models, AI-powered threat detection, and privacy-focused technologies. Understanding security principles is valuable regardless of specific ICT role.</p>
+            
+            <p><strong>Internet of Things (IoT) and Smart Systems:</strong></p>
+            <p>The proliferation of connected devices is creating new possibilities for data collection, automation, and smart system integration. From smart cities to industrial IoT, this field offers diverse opportunities for innovation.</p>
+            
+            <p><strong>Sustainability and Green Technology:</strong></p>
+            <p>Environmental consciousness is driving demand for energy-efficient computing solutions, sustainable data centers, and green software development practices. This trend creates opportunities for ICT professionals who can balance technological advancement with environmental responsibility.</p>
+            
+            <p><strong>Career Implications:</strong></p>
+            <p>These trends suggest that future ICT professionals should focus on developing adaptable skills, continuous learning habits, and interdisciplinary knowledge. The ability to work with emerging technologies while understanding their business and societal implications will be highly valued.</p>
+            
+            <p>Success in the evolving ICT landscape will require not just technical skills, but also creativity, problem-solving abilities, and the capacity to bridge the gap between technology and human needs.</p>
+        </div>
+    </div>
+
+    <div class="separator-line"></div>
+
+    <aside class="aside-menu">
+        <h3 class="aside-title">Quick Links</h3>
+        <ul class="menu-links">
+            <li>
+                <a href="https://hz.nl/organisatie/documenten-regelingen-jaarverslagen" target="_blank" class="external-link">
+                    <span class="menu-icon">📋</span>
+                    <span class="menu-text">HZ Documents & Regulations</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://hz.nl/opleidingen/ict" target="_blank" class="external-link">
+                    <span class="menu-icon">💻</span>
+                    <span class="menu-text">HZ ICT Program</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://learn.hz.nl/course/view.php?id=23602#section-0" target="_blank" class="external-link">
+                    <span class="menu-icon">📚</span>
+                    <span class="menu-text">Course Materials</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://learn.hz.nl/grade/report/user/index.php?id=23602" target="_blank" class="external-link">
+                    <span class="menu-icon">📊</span>
+                    <span class="menu-text">Grade Reports</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/HZ-HBO-ICT" target="_blank" class="external-link">
+                    <span class="menu-icon">🐙</span>
+                    <span class="menu-text">HZ ICT GitHub</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <span class="logo-text">Emil Bogdanov</span>
+                <p class="tagline">ICT Student at HZ University</p>
+                <div class="university-logo">
+                    <img src="/assets/hzlogo.png" alt="HZ University Logo" class="hz-logo">
+                </div>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>
+                    <span class="icon">📞</span>
+                    <a href="tel:+359877940662">+359 877 940 662</a>
+                </p>
+                <p>
+                    <span class="icon">✉</span>
+                    <a href="mailto:bogd0003@hz.nl">bogd0003@hz.nl</a>
+                </p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="https://github.com/ESBogdanov20" target="_blank">
+                        <span class="icon">⚡</span>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/emil-bogdanov-a304b62a0/" target="_blank">
+                        <span class="icon">💼</span>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Emil Bogdanov. All rights reserved.
+        </div>
+
+        <a href="#top" class="back-to-top" title="Back to top">↑</a>
+    </footer>
+
+    <script src="../js/blog.js"></script>
+</body>
+</html>
