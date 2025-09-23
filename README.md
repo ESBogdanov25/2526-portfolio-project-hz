@@ -32,6 +32,6 @@ This project is my digital CV — a space where I present my **skills, projects,
 git clone https://github.com/your-username/your-repo-name.git  
 
 # Open the folder
-cd your-repo-name  
+cd 2526-portfolio-project-hz 
 
 # Open index.html in your browser (or use Live Server in VS Code)
