@@ -1,17 +1,37 @@
-Portfolio Website
+# 🌐 Portfolio Website  
 
-This is my personal portfolio website, created as part of my studies at HZ University of Applied Sciences. The site showcases my projects, skills, and experience in web development.
+Welcome to my personal **portfolio website**, created as part of my studies at **HZ University of Applied Sciences**.  
+This project is my digital CV — a space where I present my **skills, projects, and experience** in web development.  
 
-Features
+---
 
-📱 Responsive design (desktop & mobile)
+## ✨ Features  
+- 📱 **Responsive design** — works on desktop, tablet, and mobile  
+- 💼 **Project showcase** — with descriptions and external links  
+- 🙋 **About me & contact section** — quick overview + ways to reach me  
+- 🎨 **Modern, clean UI** — simple yet elegant design  
 
-💼 Project showcase with descriptions and links
+---
 
-🙋 About me & contact section
+## 🛠️ Tech Stack  
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Tools & Workflow:** Git, GitHub, VS Code  
+- *(Add frameworks/libraries if you use them: React, Bootstrap, Tailwind, etc.)*  
 
-🎨 Clean and modern UI
+---
 
-Technologies Used
+## 🚀 Live Demo  
+👉 [Check it out here](your-deployed-link-here)  
 
-HTML5, CSS3, JavaScript
+---
+
+## 📂 Installation & Setup  
+
+```bash
+# Clone this repository
+git clone https://github.com/your-username/your-repo-name.git  
+
+# Open the folder
+cd your-repo-name  
+
+# Open index.html in your browser (or use Live Server in VS Code)
