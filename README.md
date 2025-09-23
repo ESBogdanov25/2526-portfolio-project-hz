@@ -20,11 +20,6 @@ This project is my digital CV — a space where I present my **skills, projects,
 
 ---
 
-## 🚀 Live Demo  
-👉 [Check it out here](your-deployed-link-here)  
-
----
-
 ## 📂 Installation & Setup  
 
 ```bash
