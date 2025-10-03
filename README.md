@@ -16,7 +16,6 @@ This project is my digital CV — a space where I present my **skills, projects,
 ## 🛠️ Tech Stack  
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Tools & Workflow:** Git, GitHub, VS Code  
-- *(Add frameworks/libraries if you use them: React, Bootstrap, Tailwind, etc.)*  
 
 ---
 
